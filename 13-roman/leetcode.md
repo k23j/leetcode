@@ -11,29 +11,30 @@ At sight I think of using a map to associate the roman chars to integers.
 
 <!-- TODO: Calc complexity -->
 # Complexity
-- Time complexity: Beats 100%
+- Time complexity: Beats 86.14%%
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
-- Space complexity: Beats 78.44%
+- Space complexity: Beats 50.54%
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 # Code
 ```cpp []
 #include <map>
 
-const map<char, int> valueMap = 
-{
-  {'I', 1},
-  {'V', 5},
-  {'X', 10},
-  {'L', 50},
-  {'C', 100},
-  {'D', 500},
-  {'M', 1000},
-};
-
 class Solution {
-public:
+  private:
+    //This map associates the chars of the roman numbers to the values
+    const map<char, int> valueMap = {
+      {'I', 1},
+      {'V', 5},
+      {'X', 10},
+      {'L', 50},
+      {'C', 100},
+      {'D', 500},
+      {'M', 1000},
+    };
+    
+  public:
     int romanToInt(string s) {
       int result = 0;
 
