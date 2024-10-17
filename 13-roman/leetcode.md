@@ -3,7 +3,7 @@ At sight I think of using a map to associate the roman chars to integers.
 
 # Approach
 1. Created a const map to store associate the values
-2. Itarate the c type string
+2. Itarate the c type string using ptr arithmetics
 3. If the char is the last, or if preceeds a char with lesser value, just sum it's value to the result
 4. If the char preeces a char of greater value, sum the difference
 5. Return the result after iterating
