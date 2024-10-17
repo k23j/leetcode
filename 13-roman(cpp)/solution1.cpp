@@ -6,18 +6,6 @@
 
 using namespace std;
 
-//This map associates the chars of the roman numbers to the values
-const map<char, int> valueMap = 
-{
-  {'I', 1},
-  {'V', 5},
-  {'X', 10},
-  {'L', 50},
-  {'C', 100},
-  {'D', 500},
-  {'M', 1000},
-};
-
 //This vector is used fot test purposes
 //Add roman numbers to be converted here
 const vector<string> testVec = {
@@ -28,6 +16,18 @@ const vector<string> testVec = {
 
 // Class used by leetcode to evaluate answers
 class Solution {
+  private:
+    //This map associates the chars of the roman numbers to the values
+    const map<char, int> valueMap = {
+      {'I', 1},
+      {'V', 5},
+      {'X', 10},
+      {'L', 50},
+      {'C', 100},
+      {'D', 500},
+      {'M', 1000},
+    };
+
 public:
 
   //Leetcode function
