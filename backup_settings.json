@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "json.schemas": [
+
+    ],
+    "dart.flutterSdkPath": "C:\\dev\\flutter_sdk\\flutter",
+    "git.confirmSync": false,
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "C_Cpp.default.cppStandard": "gnu++17"
+}
