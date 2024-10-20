@@ -18,7 +18,6 @@ class Solution {
         int currentVal = nums[i];
         if (currentVal == val) {
           nums[i] = nums[(nums.size() - 1) - count];
-          nums[(nums.size() - 1) - count] = currentVal;
           count++;
         } else {
           i++;
