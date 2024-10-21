@@ -5,7 +5,7 @@
 <!-- Describe your approach to solving the problem. -->
 
 # Complexity
-- Time complexity: **3ms** $$ < 53.09\% $$
+- Time complexity: **3ms** $$< 53.09\%$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
 - Space complexity: **8.46mb** $$ < 40.94\% $$
