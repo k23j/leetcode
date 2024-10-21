@@ -19,8 +19,7 @@ public:
     //This is the square root of the max int alowed in cpp
     //thus the highest result we can endup with
     int right = 46340;
-    int mid;
-    int result;
+    int mid, result;
 
     while (left <= right) {
       if (left * left == x) return left;
