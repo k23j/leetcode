@@ -6,10 +6,10 @@
 
 # Complexity
 - Time complexity: **0ms** $$ <100\% $$
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
+<$$O(n)$$
 
 - Space complexity: **76.95mb** $$ < 97.76\% $$
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+$$O(1)$$
 
 # Code
 ```cpp []
