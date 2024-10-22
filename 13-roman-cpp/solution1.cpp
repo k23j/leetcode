@@ -50,7 +50,7 @@ public:
 
         //In this case loop should skip the next char, as its already summed here
         //So we are advancing one char
-        continue;
+        break;
       }
 
       //If the next char is of greater value

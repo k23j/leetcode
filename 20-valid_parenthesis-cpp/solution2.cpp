@@ -17,7 +17,7 @@ const vector<string> testCaseVec = {
 
 class Solution {
   private:
-  const map<const char,const char> map = {
+  const map<const char,const char> closingMap = {
         {')', '('},
         {'}', '{'},
         {']', '['},
@@ -28,15 +28,18 @@ class Solution {
 
       for (size_t i = 0 ; i < s.length() ; i++) {
         //Push
-        if (!(map.count(s[i]))) {
+        //If not included in the close map
+        //Opening a block
+        if (!(closingMap.count(s[i]))) {
           st.push(s[i]);
         }
         //Pop
+        //Closing block
         else {
           //If closing a block when none is open
           if (st.empty()) return false;
           //Check if last matches
-          if (st.top() == map.at(s[i])) {
+          if (st.top() == closingMap.at(s[i])) {
             st.pop();
           } else {
             return false;
