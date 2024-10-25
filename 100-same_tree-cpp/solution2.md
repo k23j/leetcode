@@ -1,17 +1,18 @@
-#include <iostream>
-#include <vector>
+# Intuition
+<!-- Describe your first thoughts on how to solve this problem. -->
 
-using namespace std;
+# Approach
+<!-- Describe your approach to solving the problem. -->
 
-struct TreeNode {
-  int val;
-  TreeNode *left;
-  TreeNode *right;
-  TreeNode() : val(0), left(nullptr), right(nullptr) {}
-  TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-  TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
+# Complexity
+- Time complexity: **0ms** $$ < 100\% $$
+$$O(n)$$
 
+- Space complexity: **12.06mb** $$ < 81.29\% $$
+$$O(n)$$
+
+# Code
+```cpp []
 class Solution {
   private:
 
@@ -30,3 +31,4 @@ class Solution {
       return rec(p,q);
     }
 };
+```
