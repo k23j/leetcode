@@ -11,9 +11,11 @@ Define a recursive function that checks equality and if so, propragate.
 
 # Complexity
 - Time complexity: **0ms** $$ < 100\% $$
+
 The time complexity is $$O(n)$$.
 
 - Space complexity: **17.74mb** $$ < 10.69\% $$
+
 This solutions ended up being too space demanding, but the idea here was to reuse the code from the last problem, and solve this problem fast, I tend to go back here and try a solution that uses less memory.
 
 ![LeetCode Result](solution1_result.png)
