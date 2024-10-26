@@ -25,7 +25,7 @@ class Solution {
       rec(vec, node->right);
     }
 
-    vector<int*> inorderTraversal(TreeNode* root) {
+    vector<int*> levelOrderTraversal(TreeNode* root) {
       if (!root) return {};
       vector<int*> vec;
 
@@ -41,8 +41,8 @@ class Solution {
       if (p == nullptr && q == nullptr) return true;
       if (p == nullptr || q == nullptr) return false;
 
-      vector<int*> pT = inorderTraversal(p);
-      vector<int*> qT = inorderTraversal(q);
+      vector<int*> pT = levelOrderTraversal(p);
+      vector<int*> qT = levelOrderTraversal(q);
 
       if (pT.size() != qT.size()) return false;
 
